@@ -20,7 +20,6 @@ class ProcurarFilmeController: UIViewController {
         
         textField.delegate = self
         filmesBusca.delegate = self
-        
         buscasTable.delegate = self
         buscasTable.dataSource = self
         buscasTable.register(UINib(nibName: "TableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
